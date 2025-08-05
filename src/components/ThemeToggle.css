@@ -1,0 +1,19 @@
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 999;
+    background: transparent;
+    color: inherit;
+    border: 2px solid currentColor;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+  }
+  
+  body.dark-mode .theme-toggle {
+    border-color: #fff;
+  }
+  

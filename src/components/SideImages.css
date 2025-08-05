@@ -1,0 +1,27 @@
+.side-image {
+    position: fixed;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .side-image.left {
+    top: 30%;
+    left: 0;
+  }
+  
+  .side-image.right {
+    top: 30%;
+    right: 0;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  

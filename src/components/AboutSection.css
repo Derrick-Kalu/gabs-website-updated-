@@ -1,0 +1,41 @@
+
+
+.about-section {
+    padding: 4rem 2rem;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  
+  .about-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    
+  }
+  .about-content p {
+
+color: black;
+
+  }
+  .dark-mode .about-content p {
+color: aliceblue;
+  }
+  
+  .text {
+    flex: 1 1 400px;
+  }
+  
+  .image-container {
+    flex: 1 1 400px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  

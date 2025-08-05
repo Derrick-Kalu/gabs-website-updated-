@@ -1,0 +1,24 @@
+.newsletter-section {
+    padding: 3rem 2rem;
+    background: #003366;
+    color: white;
+    text-align: center;
+    background-color: var(--bg-color);
+  color: var(--text-color);
+  }
+  
+  .newsletter-form input {
+    padding: 0.7rem;
+    width: 300px;
+    max-width: 100%;
+    border: none;
+    margin-right: 1rem;
+  }
+  
+  .newsletter-form button {
+    padding: 0.7rem 1rem;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+  }
+  

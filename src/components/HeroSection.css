@@ -1,0 +1,104 @@
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    overflow: hidden;
+  }
+  
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .text-content h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .image-content {
+    max-width: 45%;
+  }
+  
+  .image-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  body.dark-mode .hero-section {
+    background-color: #333333;
+  }
+  
+  body.dark-mode .text-content h1 {
+    color: #fff;
+  }
+  
+  body.dark-mode .text-content p {
+    color: #ccc;
+  }
+  
+  body.dark-mode .cta-button {
+    background-color: #28a745;
+  }
+  
+  body.dark-mode .cta-button:hover {
+    background-color: #218838;
+  }
+
+  .grid-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('../assets/wavey-fingerprint.png');
+    background-repeat: repeat;
+    background-size: contain;
+    opacity: 1;
+    pointer-events: none; /* so it doesn't interfere */
+  }
+  
+  
+  .hero-image {
+    max-width: 400px; /* or desired size */
+    width: 100%;
+    height: auto;
+  }
+  
+  

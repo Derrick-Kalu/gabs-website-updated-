@@ -1,0 +1,66 @@
+.trusted-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.trusted-text h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.trusted-text p {
+  color: #000000;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.sponsor-marquee {
+  overflow: hidden;
+  position: relative;
+}
+
+.sponsor-track {
+  display: flex;
+  width: fit-content;
+  animation: marquee 25s linear infinite;
+}
+
+.sponsor-logo {
+  height: 50px;
+  margin: 0 20px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.journey-btn button {
+  margin-top: 40px;
+  padding: 12px 30px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.journey-btn button:hover {
+  background-color: #0056b3;
+}
+
+body.dark-mode .trusted-section {
+  background-color: #333333;
+
+}
+
+body.dark-mode .trusted-text p {
+  color: #ffffff;
+}

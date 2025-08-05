@@ -1,0 +1,15 @@
+.contact-section {
+    padding: 4rem 2rem;
+    background-color: #000000;
+    text-align: center;
+    background-color: var(--bg-color);
+  color: var(--text-color);
+  }
+  
+  .contact-section p {
+    color: #000000;
+  }
+
+  .dark-mode .contact-section p {
+    color: blue;
+  }
